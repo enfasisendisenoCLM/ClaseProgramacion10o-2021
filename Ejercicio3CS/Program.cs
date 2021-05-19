@@ -9,7 +9,7 @@ namespace Ejercicio3CS
             Int32 a, b;
             a =Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            if (a > b)
+            if (a > b) // a==b,a>b, a<b, a>=b, a<=b
             {
                 //Esto es la parte del si
                 Console.WriteLine("El primer número es mayor");
